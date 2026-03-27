@@ -50,10 +50,10 @@ export class EmployerService {
     if (employer === null)
       throw new NotFoundException('This account does not exist !');
 
-    employer.phone = data.phone;
-    employer.position = data.position;
+    if (data.position) employer.position = data.position;
+    if (data.phone) employer.phone = data.phone;
     // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
-    employer.company = { id: data.companyId } as any;
+    if (data.companyId) employer.company = { id: data.companyId } as any;
 
     await this.employerRepository.save(employer);
   }

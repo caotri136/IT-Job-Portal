@@ -91,10 +91,10 @@ export class JobPostController {
     return await this.jobpostService.findMatchingJobs(resumeId);
   }
 
-  @Get(':post-id')
+  @Get(':postId')
   @ApiOperation({ summary: 'Lấy chi tiết một job post theo ID' })
   @ApiParam({ name: 'post-id', type: String })
-  public async getPost(@Param('post-id') postId: string) {
+  public async getPost(@Param('postId') postId: string) {
     return this.jobpostService.findById(postId);
   }
 }

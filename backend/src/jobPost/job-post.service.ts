@@ -154,7 +154,7 @@ export class JobPostService {
       .where('js.skillId IN (:...skillIds)', { skillIds })
       .groupBy('jp.id, category.id, employer.id')
       .addSelect('COUNT(js.skillId)', 'matchCount')
-      .orderBy('matchCount', 'DESC')
+      .orderBy('"matchCount"', 'DESC')
       .getRawAndEntities()
       .then(({ raw, entities }) => {
         // Gắn matchCount vào từng entity
