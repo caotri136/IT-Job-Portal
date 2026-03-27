@@ -1,0 +1,31 @@
+@BaseURL = http://localhost:3000
+
+@contentType = application/json
+
+### check root
+GET {{BaseURL}}
+
+### check health of backed
+GET {{BaseURL}}/health
+
+### create a user
+POST {{BaseURL}}/auth/register
+Content-Type: {{contentType}}
+
+{
+    "name": "Nguyen Van B",
+    "email": "nguyenvanb@gmail.com",
+    "birthDay": "2005-01-02",
+    "password": "password123"
+}
+
+### login
+POST  {{BaseURL}}/auth/login
+Content-Type: {{contentType}}
+
+{
+    "email": "nguyenvana@gmail.com",
+    "password": "password123"
+}
+
+###

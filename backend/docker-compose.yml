@@ -1,0 +1,35 @@
+version: '3.8'
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    environment:
+      DB_HOST: database
+    depends_on:
+      - database
+    networks:
+      - app-network
+
+  database:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: pet_prj1
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 13152029
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - app-network
+
+volumes:
+  db-data:
+
+networks:
+  app-network:

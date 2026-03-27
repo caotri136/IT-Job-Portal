@@ -1,0 +1,9 @@
+23h44p 23/3/2026: đã hoàn thành resume skill, quay lại resume để bổ sung resume skill[] trong create và update
+00h06p 24/3/2026: đã hoàn thành resume skill[] trong resume, giờ hãy tiếp tục đến với application
+09h13p 25/3/2026: đã xong: Auth, Candidate, Cloudinary, Company, Employer, Application
+                           Job Category, Job Skill, Job Post, Resume, Resume Skill
+14h52p 25/3/2026: đã check Application, Authentication, Candidate, Cloudinary, Company, Employer, Job Category,
+                           Job Skill, Job Post, Resume, Resume Skill, Skill, User
+16h00p 25/3/2026: đã hoàn thành seed, clear seed
+22h52p 26/3/2026: hoàn thành swagger cho tất cả (không làm Candidate, Cloudinary, Job Category, Skill, Resume Skill, Seed)
+12h02p 27/3/2026: hoàn thành e2e test

@@ -1,0 +1,52 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.2">
+  <diagram name="Page-1" id="C_d0zAL3MEOvPhjh5tQG">
+    <mxGraphModel dx="1030" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4QbPELfAbVN0gPjRT3L0-1" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="User" vertex="1">
+          <mxGeometry height="40" width="100" x="240" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="4QbPELfAbVN0gPjRT3L0-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="&lt;u&gt;userID&lt;/u&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="120" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4QbPELfAbVN0gPjRT3L0-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="email" vertex="1">
+          <mxGeometry height="40" width="100" x="240" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4QbPELfAbVN0gPjRT3L0-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="password" vertex="1">
+          <mxGeometry height="40" width="100" x="120" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="4QbPELfAbVN0gPjRT3L0-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="fullName" vertex="1">
+          <mxGeometry height="40" width="100" x="360" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4QbPELfAbVN0gPjRT3L0-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="CreatedAt" vertex="1">
+          <mxGeometry height="40" width="100" x="360" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="4QbPELfAbVN0gPjRT3L0-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="status" vertex="1">
+          <mxGeometry height="40" width="100" x="360" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="4QbPELfAbVN0gPjRT3L0-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="Birthday" vertex="1">
+          <mxGeometry height="40" width="100" x="120" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="4QbPELfAbVN0gPjRT3L0-10" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="Canndidate" vertex="1">
+          <mxGeometry height="40" width="100" x="160" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="4QbPELfAbVN0gPjRT3L0-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="&lt;u&gt;UserID&lt;/u&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="70" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="4QbPELfAbVN0gPjRT3L0-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="experienceYears" vertex="1">
+          <mxGeometry height="40" width="100" x="40" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="4QbPELfAbVN0gPjRT3L0-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="University" vertex="1">
+          <mxGeometry height="40" width="100" x="270" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="4QbPELfAbVN0gPjRT3L0-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="Start year" vertex="1">
+          <mxGeometry height="40" width="100" x="270" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="4QbPELfAbVN0gPjRT3L0-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="End year" vertex="1">
+          <mxGeometry height="40" width="100" x="230" y="490" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
