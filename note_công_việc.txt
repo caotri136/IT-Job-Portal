@@ -7,3 +7,4 @@
 16h00p 25/3/2026: đã hoàn thành seed, clear seed
 22h52p 26/3/2026: hoàn thành swagger cho tất cả (không làm Candidate, Cloudinary, Job Category, Skill, Resume Skill, Seed)
 12h02p 27/3/2026: hoàn thành e2e test
+11h470 04/1/2026: hoàn thành docker

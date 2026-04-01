@@ -76,6 +76,15 @@ export class AuthController {
 
   @Post('forgot-password')
   @ApiOperation({ summary: 'Quên mật khẩu - Gửi OTP về email' })
+  @ApiBody({
+    schema: {
+      type: 'object',
+      properties: {
+        email: { type: 'string', example: 'user@example.com' },
+      },
+      required: ['email'],
+    },
+  })
   forgotPassword(@Body('email') email: string) {
     return this.authService.forgotPassword(email);
   }
